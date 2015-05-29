@@ -11,4 +11,8 @@
       // Testaa koodiasi täällä
         View::make('helloworld.html');
     }
+      
+    public static function kirjaudu(){
+        View::make('Suunnitelmat/kirjautuminen.html');
+    }
   }
